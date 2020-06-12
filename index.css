@@ -4,14 +4,18 @@
 
 body {
   background-color: #1c304a;
-  color: #3e9a9c;
+  /* color:  #2ECC91; */
+  color: #90C695;
   font-family: "Playfair Display", serif;
 }
 
 h1,
-h2,
-h3 {
+h2 {
   color: #ffffff;
+}
+
+h3 {
+  color: #90C695;
 }
 
 header {
@@ -24,7 +28,7 @@ header h1 {
   font-size: 60px;
 }
 
-header h3 {
+header h2 {
   text-align: center;
 }
 
@@ -37,7 +41,7 @@ header h3 {
 
 i {
   font-size: 26px;
-  color: #435163;
+  color: #90C695;
 }
 
 .about-me {
@@ -70,7 +74,6 @@ img {
 
 .projects a {
   text-decoration: none;
-  color: #ffffff;
 }
 .projects h3 {
   text-align: center;
@@ -78,7 +81,6 @@ img {
 
 .footer a {
   text-decoration: none;
-  color: #435163;
 }
 
 .contact-info {
@@ -86,7 +88,7 @@ img {
   justify-content: space-around;
 }
 
-.footer h3 {
+.footer h2 {
   padding: 5px 0;
   text-align: center;
 }
