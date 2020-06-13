@@ -4,7 +4,6 @@
 
 body {
   background-color: #1c304a;
-  /* color:  #2ECC91; */
   color: #90C695;
   font-family: "Playfair Display", serif;
 }
@@ -19,8 +18,6 @@ h3 {
 }
 
 header {
-  padding-bottom: 10px;
-  border-bottom: 2px solid #5d6570;
   font-family: "Kaushan Script", cursive;
 }
 
@@ -28,7 +25,7 @@ header h1 {
   font-size: 60px;
 }
 
-header h2 {
+header h1, h2{
   text-align: center;
 }
 
@@ -36,7 +33,7 @@ header h2 {
   list-style: none;
   display: flex;
   justify-content: space-around;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 i {
@@ -45,42 +42,51 @@ i {
 }
 
 .about-me {
-  padding: 30px 0;
-  border-bottom: 2px solid #5d6570;
+  padding: 20px 0;
+  margin: 0 auto;
+  width: 80vw;
 }
 
-.about-me p {
-  margin-left: 20px;
+.about-me h2,h3 {
+  text-align: center;
 }
 
-h2 {
-  margin-left: 5px;
+p {
+  font-size: 17px;
+  text-align: justify;
+  line-height: 20px;
+  word-spacing: 2px;
 }
 
 img {
-  width: 80%;
+  width: 80vw;
+  height: 30vh;
   margin: 0 auto;
   display: block;
   border-radius: 15px;
 }
 
 .projects {
-  border-bottom: 2px solid #5d6570;
-}
-
-.projects p {
-  text-align: center;
+  padding: 20px 0;
+  margin: 0 auto;
+  width: 80vw;
 }
 
 .projects a {
-  text-decoration: none;
+  color: #ffffff;
+  display: block;
 }
-.projects h3 {
+
+.project-links {
   text-align: center;
 }
 
-.footer a {
-  text-decoration: none;
+.projects h2 {
+  text-align: center;
+}
+
+.footer{
+  padding-top: 20px;
 }
 
 .contact-info {
@@ -95,23 +101,42 @@ img {
 
 a {
   cursor: pointer;
+  text-decoration: none;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   img {
-    width: 33%;
+    width: 40vw;
   }
 
-  .description {
-    width: 50%;
-    margin-top: 50px;
+  .used {
+    text-align: center;
   }
 
-  .projectInfo {
-    display: flex;
-    justify-content: space-evenly;
+  p {
+    font-size: 24px;
+    line-height: normal;
   }
-  .ghLink {
-    text-align: right;
+
+  i {
+    font-size: 30px;
+  }
+
+  header h1 {
+    font-size: 75px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  header h1 {
+    font-size: 100px;
+  }
+
+  img {
+    width: 25vw;
+  }
+
+  .projects {
+    width: 60vw;
   }
 }
