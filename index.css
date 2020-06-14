@@ -60,6 +60,7 @@ p {
 
 img {
   width: 80vw;
+  max-width: 300px;
   height: 30vh;
   margin: 0 auto;
   display: block;
@@ -133,8 +134,7 @@ a {
   }
 
   img {
-    /* width: 30vw; */
-    max-width: 700px;
+   
   }
 
   .projects {
